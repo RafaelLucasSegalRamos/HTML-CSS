@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens de diferentes tamanhos.</title>
+</head>
+<body>
+    <!--Com a tag <picture> é possivel mudar uma imagem dependendo do dispositivo/tamanho do navegador-->
+        <h1>Imagem dinamica</h1>
+        <p>Está imagem mudará dependendo do seu dispositivo/ tamanho do navegador.</p>
+        <picture>
+            <!--Mesmo colocando a númeragem perfeita, o navegador ainda pode colocar a barra de rolagem então é recomendado que coloque 50px a mais por garantia.-->
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/imagem-grande.png" alt="Uma foto grande">
+        </picture>
+        <h1>Reproduzindo Audios</h1>
+        <p>Vamos aprender a reproduzir audios no HTML5</p>
+        <audio src="midia/straight-fuse.mp3" controls autoplay></audio>
+        <!--Este é o código utilizado para reproduzir qualquer audio .mp3, e o autoplay serve pare que o audio seja tocado imediatamente.-->
+        <!--O parametro controls serve para que apareça no site o botão para manualmente colocarmos o audio para tocar.-->
+        <!--Mas memso assim o <audio> não é tão utilizado por ter restriçoes apnas a MP3, OGG e WAV-->
+        <h2>Podemos tambem adcionar audio de uma outra forma:</h2>
+        <audio preload="metadata" controls>
+            <!--O parametro loop irá fazer com que quando o audio terminar ele irá recomeçar automaticamente.-->
+            <source src="midia/straight-fuse.mp3" type="audio/mpeg">
+            <p>Infelizmente seu navegador não consegue reproduzir audio.
+            <a href="midia/straight-fuse.zip" download="midia/straight-fuse.zip" type="application/zip">Clique aqui para baixar o arquivo mp3</a>
+            </p>
+        </audio>
+
+</body>
+</html>

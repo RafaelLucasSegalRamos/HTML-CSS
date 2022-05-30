@@ -1,0 +1,26 @@
+body{
+    background-color: #a6cdf0;
+}
+div{
+    background-color: lightgray;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    display: inline-block;
+    /* Faz com que os objeto com essa demarcação fique em uma linha vertical*/
+   
+}
+div:hover{
+    width: 300px;
+    height: 300px;
+    background-color: purple;
+}
+/*Em CSS a pseudo-clase é definida pelo :*/
+div#d1{
+    background-color: black;
+    color: white;
+}
+div#d3{
+    background-color: white;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="#">
+    <!--Na função Backgroud-image tem a função que permitira fazer o gradiente-->
+    <!--Que é a função liner-gradiente(n1, n2, n3), sendo n1 a diração Ex. to left, to right, to top, to bottom ou ndeg(ndeg sendo qualque número em graus ex. 90deg = 90 graus)-->
+    <!--n2 sendo a cor inicial, e n3 a cor final exemplo:-->
+    <!--No CSS possui uma configuração global que é o * Ex:-->
+    <style>
+        * {
+            height: 100%; /* é para podemos utilizar o to top */
+        }
+       body{
+            /* Outra coisa importante do gradiente é que podemos adcionar quantas cores quisermos ao gradiente, e é colocar depois de uma virgula no final*/
+            /* Tambem as espessificações utilizando circle, squere mas no meu n funciona*/
+            /* Tambem podemos colocar uma porcentagem logo depois do número para definir quanto do degrade ele irá ocupar*/
+            background-image: linear-gradient(79deg, #64F0FA, #3BADAA, #305E61, #436163);
+            background-attachment: fixed;
+        }
+    </style>
+    <title>Degradê em HTML</title>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>

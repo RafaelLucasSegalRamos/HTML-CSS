@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+h1{
+    font-size: 2em;
+    color: aqua;
+    padding-left: 3em;
+}
+p{
+    color: #e75f00;
+    font-family: MyriadPro;
+    font-size:2em;
+}

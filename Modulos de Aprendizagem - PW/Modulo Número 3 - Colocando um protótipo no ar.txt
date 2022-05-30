@@ -1,0 +1,5 @@
+No modulo 3 serão aprendidos:
+Versionamento de Software,
+hospedagem de sites estáticos,
+tabelas.
+

@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+    color: aqua;
+}
+header{
+    background-color: purple;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+footer{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    margin: 0%;
+    padding: 30px;
+}
+main{
+    background-color: white;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+p{
+    padding: 10px;
+    margin: 10px;
+}
+
+nav > a{
+    color: aquamarine;
+    border: 5px solid black;
+    padding: 15px 30px;
+    background-color: rgb(100, 12, 100);
+    border-radius: 15px;
+    /*primeiro valor: posição da sombra verticalmente,
+      segundo valor: posição da sombra horizontalmente,
+      terceiro valor: o quanto a sombra se espalhará
+      quarto valor: Qual a distancia maxima que a sobra pode se espalhar.*/
+      /*tambem podemos colocar a sombra por dentro da caixa, e para fazer basta colocar insert no começo*/
+    box-shadow: inset 3px 3px 3px 1px rgba(0, 0, 0, 0.404);
+}
+nav > a#meio{
+    margin-right: 70px;
+}
+a:hover{
+    color: yellow;
+    text-align: center;
+    background-color:#A34BA0;
+}
+nav{
+    text-align: center;
+    padding: 10px;
+}
+/*footer > p{
+
+}*/
+h2{
+    margin: 30px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Colocando vídeos em HTML</title>
+</head>
+<body>
+    <h1>Colocando videos hospedados Localmente</h1>
+    <p>Este é um video que está hospedado no meu servidor</p>
+    <!-- <video src="midia/ceu-bonito.mkv" width="500" controls></video> essa é uma das formas de se fazer, mas não muito recomendada-->
+    <!--Na tag <video> acontece algo parecido com a tag <audio>, tendo que colocar o controls.-->
+    <!--Uma adição que podemos fazer nas tag que mostram imagens ou videos(<img> e <video>) podemos colocar width='' que irá colocar a largura da imagem/video-->
+        <video width="560" poster="imagens/tumbnail.png" controls autoplay loop>
+            <!--O poster serve para colocarmos uma imagem que fica antes de começar o video.-->
+            <!--Autoplay só não funciona.-->
+           <source src="midia/ceu-bonito.mp4" type="video/mp4"><!--No type é isto que colocamos quando o video é MP4-->
+            <source src="midia/ceu-bonito.webm" type="video/webm">
+            <source src="midia/ceu-bonito.m4v" type="video/mp4">
+            <source src="midia/ceu-bonito.ogv" type="video/ogg">
+            <p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+        </video>
+    <h1>Hospedando videos do Youtube.</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y"
+     title="YouTube video player" frameborder="0" 
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+     allowfullscreen></iframe>
+
+     <h1>Inserindo videos do vimeo</h1>
+     <iframe src="https://player.vimeo.com/video/172578124?h=b42f05c3e9" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

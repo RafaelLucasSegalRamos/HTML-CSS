@@ -1,0 +1,5 @@
+No modulo 5, e ultimo, serão aprendidos:
+Flexbox,
+Grid Layout,
+e teremos o 
+PROJETO FINAL.

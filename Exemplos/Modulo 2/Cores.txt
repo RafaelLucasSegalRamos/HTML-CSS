@@ -1,0 +1,82 @@
+Geralmente é recomendado que façamos os sites com muitos textos utilizando o fundo branco e letra preta, por que o contrario(letra branca e fundo preto) pode causar um grande cansaço visual.
+
+Azul significa confiança, inteligencia, e confiabilidade.
+
+Vermelho significa amor, raiva, emoções, energia, perigo, para sites de moda e de comida
+Ex: KitKat(Exagera no vermelho, encorajando o usuário a clicar em um dos links das suas redes sociais)
+
+Amarelo significa felicidade, alegria, otimismo, e corvadia.
+
+ex: MacDonalds(tem vermelho e amarelo)
+
+Marrom: Dependendo da quantidade usada, pode ter o mesmo efeito do vermelho ou amarelo, ou pode passar robustes, estabilidade
+
+Laranja significa divertimento, calor, ambição, cautela
+
+Verde remete a natureza, paz, saude, dinheiro, sorte, ou até mesmo inveja, evitar verde para coisas de luxo, tecnologia
+
+Rosa : Amor, Romance, Sinceridade, cuidados recomendade em produtos femininos e cosméticos, e evitar quando não querer um site que transmita uma sensação sentimental ou doce.
+
+Roxo: Criatividade, Poder, sabedoria, mistério
+
+Preto: elegância, autoridade, mistério, morte
+
+Branco: pureza limpeza, felicidade, segurança.
+
+Cinza: Formalidade, Sofisticação, Frieza, indiferença
+
+Harmonia das cores:
+
+Na harmonia de cores utilizaremos o circulo cromático.
+E será dividido em 12 cores principais que são: amarelo, vermelho, azul, as cores primárias
+laranja, violeta, verde, as cores secundárias
+amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado, azul-esverdeado e amarelo-esverdeado, As cores terciarias ou tons pastéis.
+
+Cores Frias: Amarelo-Esverdiado até Violeta(O lado esquedo do circulo)
+
+Cores Quentes: Do amarelo até vermelho-arroxeado(O lado direito do circulo cromático)
+
+Cores complementares(Cores que recebem destaques em umas nas outras):
+Amarelo e Violeta
+Azul e Laranja
+Vermelho e Verde
+Entre outros.
+É só olhar a cor que está imediatamente oposta da cor escolhida
+
+Cores Análogas: 
+Violeta com vermelho-arroxeado ou azul-arroxeado
+Verde com amarelo-esverdeado ou azul-esverdeado
+Entre outros.
+è só olhar as cores que estão imediatamente ao lado da cor escolhida.
+
+E com estes dois conceitos podemos criar paletas com quatro cores. Ex:
+Amarelo, Violeta, Azul-Arroxeado, Vermelho-Arroxeado
+Azul, Laranja, Amarelo-Alaranjado, Vermelho-Alaranjado
+
+Cores Análogas Relacionadas:
+Amarelo, Amarelo-Alaranjado e Vermelho-Alaranjado
+Azul, Azul-Esverdeado, Amarelo-Esverdiado
+É só pegar duas cores principais que sejam vizinhas e pule uma paleta em qualquer direção e pegue a que vier em seguida. Isso irá criar um destaque não muito forte como as complementares, mas ainda dará um destaque suave
+
+Cores Intercaladas :
+Amarelo, Laranja, Vermelho
+Azul, Verde, Amarelo
+Vermelho, Violeta, Azul
+Amarelo-Alaranjado, Vermelho-Alaranjado, Vermelho-Arroxeado
+Podemos fazer este tipo de paleta pulando uma cor a cada cor pega
+
+Cores Triádicas:
+Escolha uma cor principal e pule três e pega a proxima, Ex:
+Amarelo, Azul, Vermelho
+Verde, Violeta, Laranja
+Amarelo-Alaranjado, Vermelho-Arroxeado, Azul, Esverdeado
+
+Cores em quadrado:
+Pegue a cor principal pule duas e pegue a proxima.
+Amarelo, Vermelho-Alaranjado, Violeta, Azul-Esverdeado
+Vermelho, Azul-Arroxeado, Verde, Amarelo-Alaranjado.
+
+Cores tetrádicas:
+Pegue duas cores principais, e pegue as complementares dessas core e vocês terá as cores tetrádicas
+
+Monocromia: É escolher uma unica cor e modificar apenas sua saturação e brilho.

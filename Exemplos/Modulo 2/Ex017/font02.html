@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work sans', Arial, Helvetica, sans-serif;
+            
+            /*
+            Medidas absolutas:
+            cm, mm, in(polegada), px, pt, pc
+            
+
+            Medidas relativas:
+            em(relativo ao tamanho atual do ''M'' de uma fonte), ex(relativo a altura do ''x'' de uma fonte), rem(Relativo ao tamanho atual do ''M'' de uma fonte no body), vw(relativo ao tamanho da tela), vh(relativo a altura da tela)
+            16px = 1em geralmente
+            */
+            font-size: 1em;
+            text-align: justify;
+            font-weight: bolder;
+            /*Este comando serve para colocar o quanto a letra será esticada para o lado, o seu 'Peso' */
+            /*No comando do weight, temos alguns pesos principais que são: ligther, normal, bold, bolder do mais leve ao mais pesado */
+            /*Caso formos utilizar os valores númericos devemos estar consiente de que apenas valores entre 100 e 900 terão laguras diferentes, utilizar menos que 100 será o mesmo do ligther, e mais de 900 a mesma coisa que o bolder*/
+
+            /*Temos três tipos de ´paramentros para tamanho de largura altura e largura e eles são:
+            Width, height e weight, respectivamente*/
+            font-style: unset;
+            /*Este comando ser para colocarmos um estilo a letra, por exemplo o italico*/
+            text-decoration: underline;
+            /*Este aqui já serve para colocarmos uma decoração, exemplo, o sublinhado*/
+
+            /*Shorthand font é para facilitar na hora de colocar um código, e sua ordem é
+            font-style --> font-weight --> font-size --> font-family*/
+        }
+        h1{
+            font: italic bolder 3em sans-serif;
+        }
+        h2{
+            font: bold 2em serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque non et tenetur illo ipsa atque veritatis, vitae, quasi placeat quam enim, molestias reprehenderit ea distinctio nulla culpa explicabo iste tempora.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, velit quia in ipsa dolorum nobis odio mollitia dolorem ratione consectetur tempore magnam ut libero quasi molestias impedit ipsum, quae dolor? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, eveniet rerum tempora, laboriosam similique dicta magni temporibus quo repellendus amet tenetur consectetur. Veritatis quaerat quam dolores labore esse tempora natus.    
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae culpa maiores sint, dolores maxime numquam rem ducimus reiciendis hic cum fugit inventore facere eaque laboriosam ipsam sequi! Possimus, mollitia adipisci?</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatem fuga facilis modi consequatur deserunt odio assumenda ullam nam expedita possimus laudantium, asperiores maiores sit hic quis quo est dolorum.</p>
+</body>
+</html>

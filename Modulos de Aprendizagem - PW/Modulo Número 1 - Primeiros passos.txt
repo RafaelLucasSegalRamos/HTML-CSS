@@ -1,0 +1,116 @@
+Primeiros passos a serem aprendidos, no modulo 1, serão:
+Conceitos Basicos, 
+preparacões do ambiente,
+semântica do HTML5, 
+textos, 
+titulos,
+ligações,
+multimidias,
+estilos.
+
+<!DOCTYPE html> Define o site como HTML5; 
+
+HTML = Hyper Text Markup Language
+
+<html lang="pt-br"> Define o arquivo como Html/Lang define em qual linguagem o site será utilizado, no caso Português - Brasil;
+Lang ="pt-br"(Português - Brasil) ou "en"(Inglês)
+
+<h1>,<h2>...<h6> Define o nivel do titulo que aparecerão no site;
+
+<p> Define quando o proximo parágrafo irá começar;
+
+<HR> irá criar uma linha de uma ponta a outra que irá dividir uma sentença da outra e etc;
+
+&lt; serve para colocar o menor que(<) na frase sem tranformar-lo em uma tag;
+lt = LESS THAN
+
+&gt; serve para colocar o maior que(>) na frase sem tranformar-lo em uma tag;
+gt = GREATER THAN
+
+<!--  --> Serve para colocar um comentário para si mesmo ou outro progamador, sem colocar coisas extras no site em si
+
+&copy; simbolo que significa que o produto possui Copyright;
+
+&reg; simbolo que significa que o produto possui marca registrada;
+
+&trade; Este comando irá colocar o simbolo de TM ;
+
+&euro; Colocara o simbolo do Euro(Moeda europeia);
+
+&pound; Colocara o simbolo da Libra(Moeda Inglesa);
+
+&yen; Colocara o simbolo do Yen(Moeda Japonesa);
+
+&cent; Colocara o simbolo do centavo(Americano);
+
+&Delta; Colocara um triângulo;
+
+https://www.youtube.com/watch?v=nhMdFe3WwYc&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=14 tera mais algun simbolos;
+
+&#x(codigo que está depois do +) é o codigo utilizado para adicionar emojis;
+
+https://emojipedia.org    -   Site utilizado para conseguiros códigos
+
+<address> - É um comando que serve para identificar um endereço e marca-lo, assim o diferenciando do texto, podedo clicar para achar o endereço no google.
+
+<style> - é um comando colocado no <head> para definir um estilo parecido com CSS
+
+body {                                             |
+background-color #00000;         |
+}                                                       |
+|
+-> É um dos tipo de comandos colocados no CSS ou no <style> para difinir, por exemplos coisas que são colocadas no <Body>, como a cor do background.  
+
+Caso queira colocar uma tag especifica de um jeito mais facil em um texto já digitadi selecione a frase que ficara entre as tags, clique Ctrl+shit+P Escreva na caixa de texto 'Wrap with Abbreviation' selecione a primeira opção e então escreva o comando desejado sem os < > e o comando aparecerá envolta do texto selecionado
+
+<Strong> - é uma tag que colocara um texto em destaque(negrito), porem possui uma semantica melhor que <b> que podera deixar de funcionar no futuro
+
+<EM> - é uma tag que colocara enfasê(italico) em um texto, porem possui uma melhor semantica que <i> que podera deixar de funcionar no futuro
+
+<mark> - é uma tag  que irá marcar um texto como se fosse uma caneta marca texto
+
+style - é um parametro que existe em quase todas as tags Ex:<mark>, <p> e etc. Este parametro é recomendado quando o objetivo é mudar a cor de uma frase ou uma palavra em especifico.
+Um exemplo em utilização:
+<mark style="background-color:lime;">
+deixara a frase marcada como se fosse marca-texto, mas será da cor LIME.
+
+<Big> - Deixara o texto um pouco maior que o original, mas está se tornando obsoleto
+
+<Small> - Deixara o texto um pouco menor que o original, e continuara a ser utilizado nos dias de hoje
+
+<Del> - Irá colocar uma linha sobre o texto
+
+<ins> - é a tag que colocara um sublinhado no texto, substituindo o <u> que está se tornando obsoleto.
+
+<sup> - Serve para colocar letras menores em cima das originas como em uma conta tipo 2²
+
+<sub> - Serve para colocar letra menores embaixo das originais como em uma formula quimica exemplo: H2O(sendo o 2 o número menor.) 
+
+<code> - Irá fzer todas a letras(inclusive pontos) terem o mesmo espaçamento tendo um destaque mostrando que é um código.
+
+Se clicar as teclas shift+tab no VS code o código será arrastado para a borda
+
+<q> - serve para mostrar quais frases são citções de outras pessoas
+
+<blockquote> - Também irá fazer uma citação, mas irá fazer uma quebra de linha para colocar mais enfase na citação
+cite ="  "  - se coloca dentro do <blockquote> pra colocar o link de onde essa citação apareceu
+
+<bdo dir=" "> - é um comando que irá inverter a frase, por exemplo utilizando o RTL.
+
+<abbr title=" "> irá demontrar, por exemplo a por completa de uma abreviação, colocando o significado no title e a abreviação entre as tags
+
+<ol> - Irá fazer listas ordenadas por números, os adiconando automaticamente.
+<li> - faz parte da tag ol pois será esta tag que determinara a separação entre cada item.
+
+<ul> - Irá fazer listas mas não colocara nada indicando em qual passo está
+
+<dl> - é a tag que abrirá a possibilidade de colocar um termo e sua descrição.
+<dt> - é a tag que ficara envolta do termo
+<dd> - é a tag que ficara  envolta da descrição
+
+<a href=" "> - é utilizado para trazer sites externos, ou seja sites que não são seus. 
+type="_blank" - é colocado dentro da tag <a> para fazer com que quando o link for acessado, abrira uma nova guia e não fechara a já existente.
+
+<img> é uma tag utilizada para colocar imagens no arquivo HTML
+
+ 

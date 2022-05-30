@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h1#princ{
+    text-align: center;
+    color: rgb(98, 238, 93);
+    width: 8em;
+    font-size: 3em;
+    /*Com o border-style podemos tornar possivel se ver a borda de uma tag*/
+
+    /*Podemos substituir:
+    border-width: 10px;
+    border-style: inset;
+    border-color: rgb(119, 119, 119);
+    Por este:*/
+    border: 10px inset rgb(119, 119, 119);
+
+    background-color:rgb(12, 163, 163);
+    /*
+    Utilizando este comando podemos difinir todas as direções de padding em uma unica linha de código, sendo: Cima: 1° valor, Direita: 2° Valor, Baixo: 3° Valor, Esquerda: 4° Valor. E se todos os valores forem iguais só precisará informa-lo uma vez, por exemplo:
+    padding: 30px
+    E caso queira que apenas os valores de padding do topo e baixo, e esquerda com direita só precisara informar dois valores:
+    padding: 20px 30px;
+    */
+    padding: 40px;    
+    /*Mas é possivel se fazer o mesmo com o Margin :*/        
+   /*podendo colocar o auto para substituir os números*/
+    margin: 40px auto;                                 
+    
+    /*Padding é a largura/altura de distancia do texto e a borda.*/
+    /*E com o margin, podemos dar um espaço entre qulquer outro elemento no site e a tag na qual foi utilizada.*/
+    /*outline-width: 10px;
+    outline-style: groove;
+    outline-color: red;*/
+    outline: 10px groove red;
+    /*Outline é o que fica por fora do elemento e pode ser configurado de uma forma parecida ao Border, até mesmo seu shorthand
+    */
+}
+.teste{
+    color: rgb(0, 0, 255);
+    cursor: text;
+}
+a {
+    border: 10px outset violet;
+    padding: 15px 30px;
+    background-color: blueviolet;
+    color: aqua;
+    /*Margin: auto; apenas funciona em in-box-levels*/
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    width: 5em;
+}
+a:hover{
+    padding: 20px 40px;
+    cursor: pointer;
+}

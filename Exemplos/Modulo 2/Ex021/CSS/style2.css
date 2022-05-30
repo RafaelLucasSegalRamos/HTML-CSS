@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: darkcyan;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: darkmagenta;
+}
+a:hover{
+    text-decoration: underline;
+    color: crimson;
+
+}
+a:active{
+    color: darkgreen;
+}
+/*Os pseudo-elementos são definidos por ::, por exemplo:*/
+a:hover::after{
+    color: black;
+    content: ' <-- Link';
+}

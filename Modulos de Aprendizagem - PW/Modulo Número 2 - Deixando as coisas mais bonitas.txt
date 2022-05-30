@@ -1,0 +1,10 @@
+No Modulo número 2 serão aprendidos:
+Fundamentos do desing,
+Psicologia das cores,
+Tipografia,
+Elementos CSS,
+Modelos de caixas,
+Wireframe,
+Responsividade.
+
+

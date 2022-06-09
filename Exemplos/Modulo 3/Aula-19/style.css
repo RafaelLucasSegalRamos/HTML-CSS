@@ -9,7 +9,9 @@ div.quadrado{
     border-radius: 10px;
     
 }
-
+body{
+    background-image: url('imagens/wallpaper001.jpg');
+}
 div#q1{
     background-color: aquamarine;
 }

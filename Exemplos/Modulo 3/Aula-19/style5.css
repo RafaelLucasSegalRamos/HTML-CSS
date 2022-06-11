@@ -1,0 +1,23 @@
+body{
+    /*background-color: black;
+    background-image: url(imagens/wallpaper002.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+    /*backgroud shorthand:
+    cor > imagem > position > repetição > [size talvez n funcione] > attachment;*/
+    background: black url(imagens/wallpaper002.jpg) center top no-repeat fixed;
+    background-size: cover;
+}
+main{
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+}
+main *{
+  padding: 10px;  
+}

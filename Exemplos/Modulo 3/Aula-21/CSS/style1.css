@@ -3,6 +3,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1
@@ -24,23 +25,23 @@ body
 
 table
 {
-    width: 400px;
-    height: 400px;
     position: relative;
     border-collapse: collapse;
+    width: 800px;
 }
 
-table * td
+table *  * th, table *  * td  
 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.25em;
     border: 2px solid black;
     padding: 10px;
-    text-align: left; /*Alinhamento Orizontal*/
-    vertical-align: auto; /*Alinhamento Vertical*/ 
+    vertical-align: auto; 
 }
 
-td.numero
+thead, tfoot
 {
-    text-align: right;
+    text-align: center;
+    background: #222;
+    color: #ddd;
 }

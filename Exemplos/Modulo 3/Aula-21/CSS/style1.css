@@ -39,6 +39,16 @@ table *  * th, table *  * td
     vertical-align: auto; 
 }
 
+table caption
+{
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: monospace;
+    padding: 10px;
+    background-color: #bbb;
+}
+
 thead, tfoot
 {
     text-align: center;

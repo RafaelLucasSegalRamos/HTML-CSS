@@ -39,6 +39,12 @@ table *  * th, table *  * td
     vertical-align: auto; 
 }
 
+thead 
+{
+    position: sticky;
+    top: -2px;
+}
+
 table caption
 {
     color: black;

@@ -49,6 +49,17 @@ table caption
     background-color: #bbb;
 }
 
+tbody tr:nth-child(odd) /*ou 2n - 1 
+                         e o Even(Par) 2n*/
+{
+    background-color: lightblue;
+}
+
+td.num
+{
+    text-align: right;
+}
+
 thead, tfoot
 {
     text-align: center;

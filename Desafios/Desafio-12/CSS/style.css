@@ -1,0 +1,74 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    font-size: 3em;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+table
+{
+    position: relative;
+    border-collapse: collapse;
+    width: 800px;
+}
+
+table *  * th, table *  * td  
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    border: 2px solid black;
+    padding: 10px;
+    vertical-align: auto; 
+}
+
+thead 
+{
+    position: sticky;
+    top: -2px;
+}
+
+table caption
+{
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: monospace;
+    padding: 10px;
+    background-color: #bbb;
+}
+
+tbody tr:nth-child(odd) /*ou 2n - 1 
+                         e o Even(Par) 2n*/
+{
+    background-color: lightblue;
+}
+
+td.num
+{
+    text-align: right;
+}
+
+thead, tfoot
+{
+    text-align: center;
+    background: #222;
+    color: #ddd;
+}

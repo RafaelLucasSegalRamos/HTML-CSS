@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+}
+
+table
+{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 700px;
+    border-collapse: collapse;
+}
+
+thead, tr.impor
+{
+    background: darkgray;
+}
+
+th, td
+{
+    border: 3px solid black;
+    padding: 10px;
+}

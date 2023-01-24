@@ -1,0 +1,32 @@
+/* *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+h1
+{
+    text-align: center;
+    padding: 20px;
+}
+
+h2
+{
+    text-align: center;
+    padding: 10px;
+}
+
+a
+{
+    color: blue;
+    text-decoration: none;
+}
+
+iframe
+{
+    height: 300px;
+    width: 300px;
+    border: 10px dashed black;
+    scroll-behavior: smooth;
+}

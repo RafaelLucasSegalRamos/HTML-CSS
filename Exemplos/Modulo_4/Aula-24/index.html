@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+        <form action="#" method="post" autocomplete="off">
+        <!-- Utilizando o autocomplete="OFF", faz com que quando a pessoa for preencher o input não apareça opções que já foram colocados antes, em outros sites, ou no propio site -->
+            <label for="text">Nome:</label>
+            <!-- O for="" do Label tem que ser peenchido com o ID do elemento que você quer associar o Label. -->
+            <input type="text" name="text" id="text" required placeholder="Seu nome...">
+            <!-- O required faz com que o campo seja obrigatório, então é impossivel que o usuario de o Submit até que todos os campos com required sejam preenchidos -->
+            <br>
+            <label for="text2">Sobrenome:</label>
+            <input type="text" name="text2" id="text2" required placeholder="Seu sobrenome...">
+            <!-- O placeholder='' Serve para colocar como se fosse um exemplo na propia caixa de texto, que no momento que o usuário começa a editar a caixa de texto, o texto do usuario sobrescreve o texto de exemplo  -->
+            
+            <br>
+            <div class="cor">
+                <input type="color" name="c1" id="c1">
+                <input type="color" name="c2" id="c2">
+            </div>
+            <!-- O input type="color" cria uma caixa de seleção de cores, que pode ser usada para selecionar cores para o background, ou para o texto, ou para qualquer outra coisa que você queira -->
+            <br>
+            <label for="date">Data de nascimento:</label>
+            <input type="date" name="date" id="date">
+            <!-- O input type="date" cria uma caixa de seleção de datas, que pode ser usada para selecionar datas -->
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required placeholder="teste@test.com.br">
+            <!-- O input type="email" cria uma caixa de texto que só aceita e-mails -->
+            <br>
+            <label for="number">Número:</label>
+            <input type="number" name="number" id="number" required placeholder="123456789">
+            <!-- O input type="number" cria uma caixa de texto que só aceita números -->
+            <br>
+            <label for="range">Range:</label>
+            <input type="range" name="range" id="range" min="0" max="10" step="1">
+            <!-- O input type="range" cria uma caixa de texto que só aceita números, e tem um range de valores que podem ser selecionados, no caso, o range é de 0 a 10, e o step é de 1 em 1 -->
+            <br>
+            <label for="search">Pesquisa:</label>
+            <input type="search" name="search" id="search" placeholder="Pesquisar...">
+            <!-- O input type="search" cria uma caixa de texto que só aceita texto, e tem um botão de pesquisa no final, que pode ser usado para pesquisar algo -->
+            <br>
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="tel" id="tel" placeholder="(00) 00000-0000">
+            <!-- O input type="tel" cria uma caixa de texto que só aceita números, e tem um formato de telefone, que pode ser usado para colocar o telefone do usuário -->
+            <br>
+            <label for="time">Hora:</label>
+            <input type="time" name="time" id="time">
+            <!-- O input type="time" cria uma caixa de texto que só aceita horas, e tem um formato de hora, que pode ser usado para colocar a hora do usuário -->
+            <br>
+            <label for="url">URL:</label>
+            <input type="url" name="url" id="url" placeholder="https://www.google.com.br/">
+            <!-- O input type="url" cria uma caixa de texto que só aceita URLs, e tem um formato de URL, que pode ser usado para colocar a URL do usuário -->
+            <br>
+            <label for="week">Semana:</label>
+            <input type="week" name="week" id="week">
+            <!-- O input type="week" cria uma caixa de texto que só aceita semanas, e tem um formato de semana, que pode ser usado para colocar a semana do usuário -->
+            <br>
+            <label for="month">Mês:</label>
+            <input type="month" name="month" id="month">
+            <!-- O input type="month" cria uma caixa de texto que só aceita meses, e tem um formato de mês, que pode ser usado para colocar o mês do usuário -->
+            <br>
+            <label for="datetime-local">Data e hora local:</label>
+            <input type="datetime-local" name="datetime-local" id="datetime-local">
+            <!-- O input type="datetime-local" cria uma caixa de texto que só aceita datas e horas, e tem um formato de data e hora local, que pode ser usado para colocar a data e hora local do usuário -->
+            <br>
+            <label for="file">Arquivo:</label>
+            <input type="file" name="file" id="file">
+            <!-- O input type="file" cria uma caixa de texto que só aceita arquivos, e tem um formato de arquivo, que pode ser usado para colocar o arquivo do usuário -->
+            <br>
+            <label for="image">Imagem:</label>
+            <input type="image" name="image" id="image">
+            <!-- O input type="image" cria uma caixa de texto que só aceita imagens, e tem um formato de imagem, que pode ser usado para colocar a imagem do usuário -->
+            <br>
+        
+
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" required placeholder="123456789" minlength="8">
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar campos">
+        </form>
+    
+
+    
+</body>
+</html>

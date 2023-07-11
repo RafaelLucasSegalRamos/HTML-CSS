@@ -6,4 +6,4 @@
  TESTANDO
 
  Onde tudo começou:
- <a href='https://rafaellucassegalramos.github.io/HTML-CSS/desafios/desafio-10/Index2.html'>Clique aqui</a>
+ <!-- <a href='https://rafaellucassegalramos.github.io/HTML-CSS/desafios/desafio-10/Index2.html'>Clique aqui</a> -->

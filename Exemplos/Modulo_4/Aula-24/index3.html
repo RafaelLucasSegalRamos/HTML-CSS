@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+        <form action="#" method="post" autocomplete="on">
+        
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="text">Nome:</label>
+                <input type="text" name="text" id="text"  placeholder="Seu nome..." autocomplete="username">
+                <label for="imail">Email:</label>
+                <input type="email" name="imail" id="imail"  placeholder="Seu email..." autocomplete="email">
+                <label for="tel">Telefone:</label>
+                <input type="tel" name="tel" id="tel" placeholder="(00)0000-0000" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+            </fieldset>
+            
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar campos">
+        </form>
+    
+
+    
+</body>
+</html>

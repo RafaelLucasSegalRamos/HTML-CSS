@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+        <form action="teste.php" method="get" autocomplete="on">
+            
+           <input type="color" name="cor" id="cor" value="#ffffff">
+            <fieldset>
+                <legend>Nivel de satisfação</legend>
+                <input type="range" name="ra1" id="ra1" min="1" max="5" value="5">
+            </fieldset>
+            <fieldset>
+                <legend>Mande um Arquivo!</legend>
+                <input type="file" name="arquivo" id="arquivo">
+                <!-- Quando utilizar o envio de arquivo é obrigatório o uso do metodo POST, pois se usar o GET, apenas terá o nome do arquivo. -->
+            </fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar campos">
+        </form>
+    
+
+    
+</body>
+</html>

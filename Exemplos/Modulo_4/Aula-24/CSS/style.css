@@ -94,6 +94,13 @@ form  div.cor input[type="color"]
     width: 40%;
 }
 
+form input[type="color"]
+{
+    padding: 0;
+    height: 100px;
+    padding: 10px;
+}
+
 form fieldset
 {
     border: 4px solid blueviolet;

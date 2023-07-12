@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    background-color: #222;
+    color: #f1f1f1;
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+
+main h2
+{
+    color: white;
+}
+
+h2
+{
+    display: none;
+}
+
+menu
+{
+    display: none;
+}
+
+p.impress
+{
+    display: inline;
+    color: aquamarine;
+    font-size: 1.75em;
+}
+
+span#data
+{
+    font-weight: bolder;
+}
+
+main p
+{
+    width: 70%;
+    margin: 20px auto;
+}

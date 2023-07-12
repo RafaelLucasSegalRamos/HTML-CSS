@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*O aparelho em pé, (Portrait)*/
+body {
+    background: #233eff url(../imgs/cev-portrait.jpg) no-repeat center center fixed;
+    background-size: contain;
+    color: white;
+  }
+  
+
+h1 {
+  color: lightblue;
+}

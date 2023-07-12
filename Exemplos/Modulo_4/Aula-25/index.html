@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Queries</title>
-    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="stylesheet" href="CSS/estilo.css" media="all">
+
+    <link rel="stylesheet" href="CSS/style.css" media="screen">
+    <!-- A diferenciação do que aparece no site começa aqui, utilizando o media podemos definir onde o CSS irá afetar no caso screen, faz com que afete apenas a tela que fica visivel no inicio do site, no caso o padrão ou quando se não se especifica o media fica configurado como media="all"-->
+    <link rel="stylesheet" href="CSS/impressao.css" media="print">
+    <!-- Aqui o CSS irá afetar apenas quando for impresso, pois o media está configurado como print -->
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    
+    <header>
+        <h1>Noticias</h1>
+        <menu>
+            <ul>
+                <li>Esportes</li>
+                <li>Politica</li>
+                <li>Economia</li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Estou aprendendo sobre <span class="impor">Media Queries</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi laboriosam vitae similique a, quae praesentium repellat molestiae accusamus officia, iusto quidem perspiciatis? Ex explicabo asperiores veniam assumenda natus sit odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, minus quas sunt quis odit debitis! Ipsa doloribus vero voluptatem quo reiciendis harum suscipit eligendi temporibus blanditiis, nam et velit enim!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium at ex aperiam ut, maiores dolor earum omnis! Facilis tenetur similique corporis voluptatem delectus adipisci distinctio mollitia veniam rerum reiciendis? Eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam architecto ratione expedita dolorum esse est accusantium, reprehenderit placeat soluta beatae eius iusto quisquam consequatur voluptatum quos, et accusamus deserunt perferendis?</p>
+            <p class="impress">Este artigo foi impresso no dia : <span id="data"></span></p>
+        </article>
+    </main>
+    <footer>
+        <h2>Clique Ctrl+P para ver a diferença entre ambos os CSS da impressão, e do que é visivel atualmente.</h2>
+    </footer>
+    <script>
+        var data = new Date();
+        var dia = data.getDate();
+        var mes = data.getMonth();
+        var ano = data.getFullYear();
+         var dataAtual = dia + "/" + mes + "/" + ano;
+        document.getElementById("data").innerHTML = dataAtual;
+        document.addEventListener("pageshow", function(){
+            document.getElementById("data").innerText = dataAtual;
+        });
+    </script>
 </body>
 </html>

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*O aparelho deitado, (Landscape)*/
+
+body {
+  background: #233eff url(../imgs/cev-landscape.jpg) no-repeat left bottom fixed;
+  
+  color: white;
+}
+
+h1 {
+  color: lightgreen;
+}

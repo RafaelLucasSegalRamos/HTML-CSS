@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/*config gerais*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #222;
+    color: #f1f1f1;
+    min-height: 100vh;
+}
+
+header
+{
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 150px;
+    position: relative;
+    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+header h1
+{
+    color: white;
+    font-size: 2.5em;
+}
+
+menu
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+header menu ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+header menu ul li
+{
+    padding: 10px;
+    font-weight: bold;
+    color: blueviolet;
+    transition: 0.5s;
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+
+}
+
+header menu ul li:hover
+{
+    font-weight: bold;
+    color: #333;
+    background-color: blueviolet;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+main
+{
+    position: relative;
+    flex-direction: column;
+    min-height: 30vh;
+    padding: 30px;
+}
+
+main h2
+{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+span.impor
+{
+    color: rgb(175, 97, 248);
+}
+
+main p
+{
+    margin: 20px 0;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+footer
+{
+    padding: 40px;
+}

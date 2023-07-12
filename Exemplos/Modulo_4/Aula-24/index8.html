@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+        <form action="teste.php" method="get" autocomplete="on">
+            
+           <fieldset>
+            <legend>Mini Tabuada</legend>
+            <label for="n1">Número 1</label>
+            <input type="number" name="n1" id="n1" min="0" max="50" step="1" value="0">
+            <label for="n2">Número 2 (<span id="num">0</span>)</label>
+            <input type="range" name="n2" id="n2" min="0" max="10" value="0">
+            <label for="soma">Resultado</label>
+            <output name="soma" id="soma">0</output>
+            <!-- O output só serve para dar um feedback para o usuário do que acontecerá se soamr ambos os valores, mas ele não enviara seu valor para um formulário, quando o Enviar for clicado. -->
+           </fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar campos">
+        </form>
+    <script>
+        var n1 = document.getElementById('n1');
+        var n2 = document.getElementById('n2');
+        var num = document.getElementById('num');
+        var soma = document.getElementById('soma');
+        n1.addEventListener('input', function(){
+            soma.value = parseInt(n1.value) * parseInt(n2.value);
+        });
+        n2.addEventListener('input', function(){
+            soma.value = parseInt(n1.value) * parseInt(n2.value);
+            num.innerHTML = n2.value;
+        });
+        /*Este é um jeito mais complexo do que foi mostrado no video do Curso em Video*/
+    </script>
+
+    
+</body>
+</html>

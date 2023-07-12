@@ -10,7 +10,37 @@
     
         <form action="teste.php" method="get" autocomplete="on">
             
-           
+           <label for="est">Estado</label>
+            <select name="est" id="est">
+                <option value="">--Escolha--</option>
+                <optgroup label="Estados do Suldeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernanbuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+
+
+            </select>
+            <fieldset>
+                <legend>Profissão:</legend>
+                <input type="text" name="prof" id="prof" list="listprof">
+                <datalist id="listprof">
+                    <option value="ADM">Administrador</option>
+                    <option value="MD">Médico</option>
+                    <option value="ENF">Enfermeiro</option>
+                    <option value="PROF">Professor</option>
+                    <option value="DEV">Desenvolvedor</option>
+                </datalist>
+            </fieldset>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            <!-- De uma forma parecida com o input[type="File"], o melhor é utilizar o metodo POST com textarea, pois o get possui um número limitado de caracteres, ou seja caso o número de caracteres ultrapasse este limite, o get então retornara um erro. -->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar campos">
         </form>
     
 

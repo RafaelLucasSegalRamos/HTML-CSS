@@ -2,57 +2,63 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Queries</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Queries</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <style>
-        /*Declarações Gerais*/
+  <style>
+    /*Declarações Gerais*/
 
-        @charset "UTF-8";
+    @charset "UTF-8";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-body
-{
-    height: 100vh;
-    background-color: #233eff;
-    width: 100vw;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    body {
+      height: 100vh;
+      background-color: #233eff;
+      width: 100vw;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
 
-}
-        /*Declarações para dispositivos com orientação retrato*/
-        body {
-            background: #233eff url(../imgs/cev-portrait.jpg) no-repeat center center fixed;
-            background-size: contain;
-            color: white;
-          }
-          
-        
+    }
+
+    /*Declarações para dispositivos com orientação retrato*/
+    /*o @media screen and orientation: portrait, replica o que 
+    <link rel="stylesheet" href="CSS/retrato.css" media="screen and (orientation: portrait)"> fazia. Sua vantagem é que é bom para projetos menores, e pode ser feito no propio HTML, mas caso for um projeto maior ele pode acabar atrapalhando na codificação do HTML. Mas tambem é possivel replicar este código no arquivo CSS puro.*/
+    @media screen and (orientation: portrait) {
+      body {
+        background: #233eff url(imgs/cev-portrait.jpg) no-repeat center center fixed;
+        background-size: contain;
+        color: white;
+        }
         h1 {
           color: lightblue;
         }
+      }
 
-        /*Declarações para dispositivos com orientação paisagem*/
-        body {
-            background: #233eff url(../imgs/cev-landscape.jpg) no-repeat left bottom fixed;
-            
-            color: white;
-          }
-          
-          h1 {
-            color: lightgreen;
-          }
-    </style>
+    
+
+    /*Declarações para dispositivos com orientação paisagem*/
+    @media screen and (orientation: landscape) {
+      body {
+        background: #233eff url(imgs/cev-landscape.jpg) no-repeat left bottom fixed;
+        background-size: contain;
+        color: white;
+      }
+      h1 {
+        color: lightgreen;
+      }
+    }
+  </style>
 </head>
-<body>
-    <h1>Mude a Orientação do seu dispositivo</h1>
 
+<body>
+  <h1>Mude a Orientação do seu dispositivo</h1>
+  
 </body>
 </html>

@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/* As outras mídias */
+
+/* Tipical Device BreakPoints */
+/* 
+Pequenas Telas: 360 até 600px
+Celular: 600 até 768px
+Tablet: 768 até 992px
+Desktop: 992 até 1440px
+Grandes telas: 1440 até +
+ */
+
+
+/* Versão para impressora */
+
+@media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        /* background: url(../imgs/back-print.jpg) no-repeat center center fixed;
+        background-size: cover;  Teoricamente não funcion na impressão mas por algum motivo apareceu para mim*/
+        background-image: none;
+        background-color: #fff;
+    }
+
+    main
+    {
+        background:#0071db;
+        width: 100%;
+        min-height: 100%;
+    }
+    img#phone
+    {
+        display: none;
+    }
+    img#print
+    {
+        display: block;
+    }
+    header h1
+    {
+        text-shadow: none;
+    }
+}
+
+/*Versão para Tablet */
+@media screen and (min-width: 720px) and (max-width: 992px) {
+    body{
+        background: url(../imgs/back-tablet.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+    img#tablet
+    {
+        display: block;
+    }
+    img#phone
+    {
+        display: none;
+    }
+}
+
+/*Versão para Desktop */
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+    body{
+        background: url(../imgs/back-pc.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+    img#desk
+    {
+        display: block;
+    }
+    img#phone
+    {
+        display: none;
+    }
+    
+}
+
+/*Versão para Grandes Telas */
+@media screen and (min-width: 1440px) {
+    body{
+        background: url(../imgs/back-tv.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+    img#tv
+    {
+        display: block;
+    }
+    img#phone
+    {
+        display: none;
+    }
+    
+    
+}
+    

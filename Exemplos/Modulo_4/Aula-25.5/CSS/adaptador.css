@@ -19,17 +19,19 @@ Grandes telas: 1440 até +
         font-family: 'Courier New', Courier, monospace;
     }
     body{
-        /* background: url(../imgs/back-print.jpg) no-repeat center center fixed;
-        background-size: cover;  Teoricamente não funcion na impressão mas por algum motivo apareceu para mim*/
+        /* Agora apareceu :) */
         background-image: none;
         background-color: #fff;
+        background: url(../imgs/back-print.jpg) no-repeat center center fixed;
+
     }
 
     main
     {
-        background:#0071db;
+        /* background:#0071db; */
         width: 100%;
         min-height: 100%;
+        
     }
     img#phone
     {
@@ -62,7 +64,7 @@ Grandes telas: 1440 até +
 }
 
 /*Versão para Desktop */
-@media screen and (min-width: 992px) and (max-width: 1440px) {
+@media screen and (min-width: 993px) and (max-width: 1440px) {
     body{
         background: url(../imgs/back-pc.jpg) no-repeat center center fixed;
         background-size: cover;
@@ -79,7 +81,7 @@ Grandes telas: 1440 até +
 }
 
 /*Versão para Grandes Telas */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1441px) {
     body{
         background: url(../imgs/back-tv.jpg) no-repeat center center fixed;
         background-size: cover;

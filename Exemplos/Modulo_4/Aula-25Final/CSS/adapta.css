@@ -1,0 +1,44 @@
+@media screen and (min-width: 768px) {
+
+    header nav
+    {
+        opacity: 1;
+        transform: translateY(0px) translateX(0);
+        height: 60px;
+        bottom: 0;
+        background: transparent;
+    }
+    header nav ul
+    {
+        margin: 10px;
+        width: 100%;
+        flex-direction: row;
+        background: transparent;
+        justify-content: left;
+        align-items: center;
+    }
+    header nav ul li
+    {
+        margin: 10px;
+        width: 100px;
+        border: #ccc solid 3px;
+    }
+    header .lista
+    {
+        transform: translateX(10000px);
+    }
+
+}
+    
+
+@media print
+{
+    header
+    {
+        display: none;
+    }
+    main
+    {
+        width: 80vw;
+    }
+}

@@ -10,4 +10,12 @@ lista.addEventListener("click", function(event){
     } else { 
         lista.innerHTML = ' <i class="fa-solid fa-bars"></i>';
     }
+
+})
+
+setInterval(function(){
+    if (nav.classList.contains("desc") && window.innerWidth > 768){
+        nav.classList.remove("desc");
+        lista.innerHTML = ' <i class="fa-solid fa-bars"></i>';
+    }
 })

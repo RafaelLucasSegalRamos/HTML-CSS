@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login</title>
+</head>
+<body>
+    <main class="login">
+        <div class="containerLogin">
+            <h2>Login</h2>
+            <form action="login.php" method="post">
+                <div class="inputBox">
+                    <input type="text" name="lusuario" id="lusuario" required>
+                    <label for="lusuario">Usuário</label>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="lsenha" id="lsenha" required>
+                    <label for="lsenha">Senha</label>
+                    <div class="indica"><i class="fa-solid fa-eye"></i></div>
+                </div>
+                <div class="buttonBox">
+                    <input type="submit" value="Entrar">
+                </div>
+                <div class="buttonBox">
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+                <div class="buttonBox regis">
+                    <a href="#">Ainda não tem uma conta?</a>
+                </div>
+            </form>
+        </div>
+        <div class="imgBox">
+
+        </div>
+        <div class="containerRegistra">
+            <h2>Registre-se</h2>
+            <form action="registra.php" method="post">
+                <div class="inputBox">
+                    <input type="text" name="rusuario" id="rusuario" required>
+                    <label for="rusuario">Usuário</label>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="rsenha" id="rsenha" required>
+                    <label for="rsenha">Senha</label>
+                    <div class="indica"><i class="fa-solid fa-eye"></i></div>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="consenha" id="consenha" required>
+                    <label for="consenha">Denovo</label>
+                    <div class="indica"><i class="fa-solid fa-eye"></i></div>
+                </div>
+                <div class="buttonBox">
+                    <input type="submit" value="Registrar">
+                </div>
+                <div class="buttonBox logas">
+                    <a href="#">Já possui uma conta?</a>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="JS/versenha.js"></script>
+</body>
+</html>

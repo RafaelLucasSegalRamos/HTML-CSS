@@ -25,7 +25,7 @@ body
     overflow-x: hidden;
 }
 
-main.login
+main
 {
     display: flex;
     position: relative;
@@ -38,10 +38,11 @@ main.login
     backdrop-filter: blur(5px);
     justify-content: center;
     align-items: center;
+    max-width: 800px;
 }
 
-main.login .containerLogin,
-main.login .containerRegistra
+main .containerLogin,
+main .containerRegistra
 {
     position: absolute;
     width: 100%;
@@ -50,15 +51,24 @@ main.login .containerRegistra
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    opacity: 1;
+    z-index: 1;
 }
 
 
 main.login .containerRegistra
 {
-    display: none;
+    opacity: 0;
+    z-index: -9999;
 }
 
-main.login div h2
+main.registra .containerLogin
+{
+    opacity: 0;
+    z-index: -9999;
+}
+
+main div h2
 {
     color: #fff;
     font-size: 30px;
@@ -71,7 +81,7 @@ main.login div h2
     align-items: center;
 }
 
-main.login div form
+main div form
 {
     display: flex;
     position: relative;
@@ -82,8 +92,8 @@ main.login div form
     height: 100%;
 }
 
-main.login div form .inputBox,
-main.login div form .buttonBox
+main div form .inputBox,
+main div form .buttonBox
 {
     position: relative;
     width: 90%;
@@ -93,17 +103,18 @@ main.login div form .buttonBox
     flex-direction: column;
     height: 60px;
     margin-top: 10px;
+    
 }
 
-main.login div form .inputBox
+main div form .inputBox
 {
     background: blueviolet;
     border-radius: 10px;
 }
 
-main.login div form .inputBox input
+main div form .inputBox input
 {
-    position: relative;
+    position: absolute;
     width: 80%;
     padding: 10px 0;
     font-size: 16px;
@@ -115,7 +126,7 @@ main.login div form .inputBox input
     color: #fff;
     border-radius: 10px;
     padding: 10px;
-    left: 50px;
+    right: 0px;
     transition: 0.5s;
     height: 100%;
     font-size: 1.25em;
@@ -125,7 +136,7 @@ main.login div form .inputBox input
     align-items: center;
 }
 
-main.login div form .inputBox label 
+main div form .inputBox label 
 {
     position: absolute;
     top: 0;
@@ -139,7 +150,7 @@ main.login div form .inputBox label
     font-size: 1.25em;
 }
 
-main.login div form .inputBox .indica
+main div form .inputBox .indica
 {
     position: absolute;
     right: 20px;
@@ -152,7 +163,7 @@ main.login div form .inputBox .indica
     align-items: center;
 }
 
-main.login div form .inputBox .indica::before
+main div form .inputBox .indica::before
 {
     content: '';
     position: absolute;
@@ -163,7 +174,7 @@ main.login div form .inputBox .indica::before
     transform: rotate(-45deg);
 }
 
-main.login div form .inputBox .indica.mostra::before
+main div form .inputBox .indica.mostra::before
 {
     content: '';
     height: 40px;
@@ -172,7 +183,7 @@ main.login div form .inputBox .indica.mostra::before
     
 }
 
-main.login div form .buttonBox
+main div form .buttonBox
 {
     display: flex;
     justify-content: center;
@@ -181,10 +192,11 @@ main.login div form .buttonBox
     width: 90%;
     height: 50px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
-main.login div form .buttonBox a,
-main.login div form .buttonBox input
+main div form .buttonBox a,
+main div form .buttonBox input
 {
     position: relative;
     display: flex;
@@ -204,8 +216,8 @@ main.login div form .buttonBox input
     text-decoration: none;
 }
 
-main.login div form .buttonBox a:hover,
-main.login div form .buttonBox input:hover
+main div form .buttonBox a:hover,
+main div form .buttonBox input:hover
 {
     background: blueviolet;
     color: white;
@@ -217,14 +229,28 @@ main.login div form .buttonBox input:hover
     text-decoration: none;
 }
 
-main.login div form .buttonBox.regis a
+main div form .buttonBox.regis a
 {
     width: 70%;
     color: rgb(0, 126, 126);
     border: 3px solid rgb(0, 126, 126);
 }
 
-main.login div form .buttonBox.regis a:hover
+main div form .buttonBox.lregis a:hover
 {
     background: rgb(0, 126, 126);
+    color: white;
+}
+
+main div form .buttonBox.logas a
+{
+    width: 70%;
+    color: rgb(0, 126, 126);
+    border: 3px solid rgb(0, 126, 126);
+}
+
+main div form .buttonBox.logas a:hover
+{
+    background: rgb(0, 126, 126);
+    color: white;
 }

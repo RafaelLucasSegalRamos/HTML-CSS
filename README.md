@@ -3,7 +3,6 @@
 
  E agora estou aprendendo a mexer no meu repositório
 
- TESTANDO
+ TESTANDO LINGUAGEM MARKDOWN
 
- Onde tudo começou:
- https://rafaellucassegalramos.github.io/HTML-CSS/desafios/desafio-10/Index2.html
+ *Italico* **Negrito** [Link](https://github.com/RafaelLucasSegalRamos/HTML-CSS/blob/main/README.md)

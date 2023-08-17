@@ -12,3 +12,14 @@
  #### Titulo (h4)
  ##### Titulo (h5)
  ###### Titulo (h6)
+ <br> (Quebra de linha)
+ <hr> (Quebra de linha que deixa uma linha para trás)
+ 
+ __*Mistura de negrito com italico*__
+
+ Lista
+ 1. teste
+ 2. teste
+    1. subteste
+    2. subteste2
+ 3. teste

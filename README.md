@@ -7,3 +7,4 @@
 
  *Italico* **Negrito** [Link](https://github.com/RafaelLucasSegalRamos/HTML-CSS/blob/main/README.md) ~~Linha no meio~~ 
  # Titulo (h1)
+ ## Titulo (h2)

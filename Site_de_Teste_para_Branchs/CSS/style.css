@@ -22,4 +22,12 @@ main
     margin: 0 auto;
     padding: 40px;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+main h1
+{
+    text-align: center;
+    margin-bottom: 40px;
+    color: blueviolet;
 }
